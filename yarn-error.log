@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\menglihao\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\VanDykeSoftware\Clients\;C:\Java\jdk1.8.0_131\bin;C:\ProgramData\Oracle\Java\javapath;C:\D_SOFT\system\HAISHI~1\Oaking\Commons\;C:\D_SOFT\develop\oracle11g\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\D_SOFT\develop\TortoiseSVN\bin;C:\D_SOFT\system\HAISHI~1\Oaking\Commons\bea\tuxedo8.0\bin;C:\Python27;X:\server\apache-maven-3.0.4\bin;C:\Program Files\TortoiseGit\bin;C:\ProgramData\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\lee\Tesseract-OCR;C:\D_SOFT\develop\mysql-5.7.18-winx64\bin;C:\programFiles\Redis\;C:\Users\menglihao\node_modules\hexo\bin;C:\lee\github\hexo\node_modules\.bin;C:\Program Files (x86)\Rational\common;C:\Program Files\nodejs\;C:\Users\menglihao\AppData\Local\Programs\Fiddler;C:\Program Files\Microsoft VS Code\bin;C:\Users\menglihao\AppData\Roaming\npm
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir 'C:\donghaijun\dcService\node_modules\express\node_modules\raw-body\node_modules'
+
+npm manifest: 
+  {
+    "name": "dcService",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "connect-multiparty": "^2.1.0",
+      "express": "^4.16.3",
+      "morgan": "^1.9.0",
+      "mysql": "^2.15.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
